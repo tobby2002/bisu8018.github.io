@@ -9,13 +9,13 @@
 - Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br>
 
 <h3>개발 인원</h3>
-- 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)<br><br>
+- 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)<br>
 
 <h3>개발 기간</h3>
-- 약 2개월 (QA 포함)<br><br>
+- 약 2개월 (QA 포함)<br>
 
 <h3>담당 업무</h3>
-- 프론트 엔드 개발 담당<br><br>
+- 프론트 엔드 개발 담당<br>
 
 <h3>사용 언어 및 프레임워크</h3>
 - Vue js, Vuetify<br>
@@ -25,7 +25,7 @@
 <h3>사용 툴</h3>
 - Intelij<br>
 - GIT<br>
-- JIRA<br><br>
+- JIRA<br>
 
 <h3>프론트엔드 개발 제한사항</h3>
 - Vue js 사용<br>
