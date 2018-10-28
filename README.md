@@ -1,6 +1,6 @@
 # P2P 가상화폐 거래소 프로젝트
 <h2>Fornt-End</h2> <br>
-
+![image1](./images/main_page.png)
 <h3>개요</h3>
 - Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br><br>
 
