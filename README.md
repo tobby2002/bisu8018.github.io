@@ -20,7 +20,7 @@
 <h3>사용 언어 및 프레임워크</h3>
 - Vue js, Vuetify<br>
 - HTML5, CSS3<br>
-- JavaScript, TypeScript<br><br>
+- JavaScript, TypeScript<br>
 
 <h3>사용 툴</h3>
 - Intelij<br>
