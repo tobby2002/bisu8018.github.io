@@ -1,8 +1,12 @@
 # P2P 가상화폐 거래소 프로젝트
-<h2>Fornt-End</h2> <br>
-![image1](./images/main_page.png)
+<h2>Fornt-End</h2><br>
+
+<a href="images/main_page.png">메인페이지(데스크탑) 캡쳐</a><br>
+<a href="images/main_page(mobile).png">메인페이지(모바일) 캡쳐</a><br>
+<a href="bisu8018.github.io">샘플 페이지</a><br> (현재 서버 미연동으로, 진입 할 수 없는 페이지가 부분 존재하므로 양해 부탁드립니다. 가데이터 작업 진행중입니다)<br><br>
+
 <h3>개요</h3>
-- Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br><br>
+- Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br>
 
 <h3>개발 인원</h3>
 - 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)<br><br>
@@ -24,6 +28,9 @@
 - JIRA<br><br>
 
 <h3>프론트엔드 개발 제한사항</h3>
+- Vue js 사용<br>
+- 반응형 웹 개발<br>
+(최소 사이즈 아이폰5se, 태블릿 PC 고려안함)<br>
 - 라이브러리 사용 최소화<br><br>
 
 
@@ -40,7 +47,3 @@
 - 지갑
 
 
-
-CAUTION!!)</div>
-현재 서버단 소스가 연동 돼있지 않아, 가데이터가 입력되어 있습니다. 그러므로 진입 할 수 없는 페이지가 부분적으로 존재하기에 양해 바랍니다.
-(The data may not be displayed because the back end is not linked.)
