@@ -3,7 +3,7 @@
 
 <a href="images/main_page.png">메인페이지(데스크탑) 캡쳐</a><br>
 <a href="images/main_page(mobile).png">메인페이지(모바일) 캡쳐</a><br>
-<a href="bisu8018.github.io">샘플 페이지</a><br> (현재 서버 미연동으로, 진입 할 수 없는 페이지가 부분 존재하므로 양해 부탁드립니다. 가데이터 작업 진행중입니다)<br><br>
+<a href="https://bisu8018.github.io/">샘플 페이지</a><br> (현재 서버 미연동으로, 진입 할 수 없는 페이지가 부분 존재하므로 양해 부탁드립니다. 가데이터 작업 진행중입니다)<br><br>
 
 <h3>개요</h3>
 - Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br><br>
