@@ -2,11 +2,11 @@
 <h2>Fornt-End</h2><br>
 
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드</a><br>
-<a href="https://bisu8018.github.io/">샘플 페이지</a><br> (현재 서버 미연동으로, 진입 할 수 없는 페이지가 부분 존재하므로 양해 부탁드립니다. 가데이터 작업 진행중입니다)<br><br>
+<a href="https://bisu8018.github.io/">샘플 페이지</a><br> (현재 서버 미연동으로 가데이터 작업 진행중입니다. 진입 불가한 페이지가 부분 존재하므로 양해 부탁드립니다)<br><br>
 
 <h3>개요</h3>
-- Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br>
-<a href="images/main_page.png">메인페이지(데스크탑) 캡쳐</a><br>
+- Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축<br><br>
+<a href="images/main_page.png">메인페이지(데스크탑) 캡쳐</a>, 
 <a href="images/main_page(mobile).png">메인페이지(모바일) 캡쳐</a><br><br>
 
 
