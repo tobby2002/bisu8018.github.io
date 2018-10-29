@@ -1,4 +1,4 @@
-# P2P 가상화폐 거래소 프로젝트 Fornt-End
+# P2P 가상화폐 거래소 Fornt-End 포트폴 
 <image src="images/banner.png" style="width: 150px;">
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">
   Github 소스코드 (https://github.com/bisu8018/p2p_exchange_front_end/)
@@ -35,13 +35,12 @@
 <br><br>
 
 ## 개요
+### 프로젝트 개요
 - 가상화폐 P2P 거래 수요 증가에 따른, P2P 가상화폐 거래소 구축
 - 전 세계 대상 서비스로, 다국어 지원
 - 모바일 이용자 고려, 반응형 웹 개발 (캡쳐:<a href="images/main_page.png"> Desktop 환경</a>, <a href="images/main_page(mobile).png">Mobile 환경</a>)
 - Bitcoin, Etherium 입/출금 우선 지원
-<br>
 
-## 프로젝트 개요
 ### 구성원 
 - 기획 : 1명
 - 번역 : 1명
@@ -61,15 +60,13 @@
   vue.config
 </a>, vue-cli, git 등등) 
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/config">
-  프로젝트 설정 스크립트
-</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">
+  프로젝트 설정 스크립트</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">
   공통 스크립트
 </a> 관리
-- SelectBox, CheckBox, 인증 슬라이더 등등 <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
+- SelectBox, CheckBox, 인증 모달 등등 <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
   공통 Component</a> 개발 및 관리
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 문서화 
 - 버그/성능/디자인 개선 및 코드정리
-- 초기 AWS 서버 및 도메인 관리 (추후 Back-End 이관)
 <br>
 
 ## Front-End 개발 기여도 (76% : 시연 동영상 기준)
@@ -105,9 +102,9 @@
 
 
 ## 상세 내용
-<h4>프로젝트 구조</h4>
+### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
-  <br>
+
   ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">스프라이트 이미지</a> 보관<br>
   ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수 보관<br>
   ③ components : alert, date picker, select box 등등 공통 컴포넌트 보관<br>
