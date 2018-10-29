@@ -1,15 +1,15 @@
 # P2P 가상화폐 거래소 프로젝트
 <h2>Fornt-End</h2>
+<a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드 링크 (https://github.com/bisu8018/p2p_exchange_front_end/)</a>
+<br>
+<a href="https://bisu8018.github.io/">데모 사이트 링크 (https://bisu8018.github.io)</a> 
+<br>
+(현재가데이터 작업 진행중이므로, 부분적으로 진입 불가한 페이지가 존재합니다.)
+<br>
+<br>
 <br>
 
-<a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드 링크</a>
-<br>
-<a href="https://bisu8018.github.io/">데모 사이트 링크</a> (현재 가데이터 작업 진행중이므로, 부분적으로 진입 불가하오니 양해 부탁드립니다)
-<br>
-<br>
-<br>
-
-<h3>개요</h3>
+## 개요
 - Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <br>
 <br>
@@ -18,21 +18,14 @@
 <br>
 <br>
 
-
-<h3>개발 인원 및 기간</h3>
-- 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)<br>
-- 약 3개월 (QA 포함) : 2018.08 ~ 2018.10
-<br>
-<br>
-
-<h3>담당 업무</h3>
+## 담당 업무
 - 프로젝트 프론트 엔드 개발 담당 (주요 기능 위주 전체 약 70%)
 <br>
 - 디자인팀이 제작한 결과물 바탕으로, common CSS/z-index/sprite 이미지 정리
 <br>
 <br>
 
-<h3>사용 언어 및 프레임워크</h3>
+## 사용 언어 및 프레임워크
 - Vue js, Vuetify
 <br>
 - HTML5, CSS3
@@ -41,7 +34,7 @@
 <br>
 <br>
 
-<h3>사용 툴</h3>
+## 협업 툴
 - Intelij
 <br>
 - GIT
@@ -50,7 +43,7 @@
 <br>
 <br>
 
-<h3>개발 제한사항 (프론트엔드)</h3>
+## 개발 제한사항 (프론트엔드)
 - Vue js 2 사용
 <br>
 - 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC : 고려 X)
@@ -64,10 +57,10 @@
 <br>
 
 
-<h3>상세 내용</h3>
+## 상세 내용
 <h4>프로젝트 구조</h4>
 <image src="images/prj_structure.png" style="width: 150px;">
-  <br><br>
+  <br>
   ① assets : fonts, images, sprite images<a href="img/sprite_image-2.232809dd.png">(이미지 보기)</a> 보관<br>
   ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수 보관<br>
   ③ components : alert, date picker, select box 등등 공통 컴포넌트 보관<br>
