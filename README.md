@@ -57,7 +57,7 @@
 <br>
 
 ## 담당 업무
-- P2P 거래소 사이트 구축 (하기 'Front-End 개발 기여도' 참고)
+- P2P 거래소 사이트 구축 (하기 '프로젝트 기여도' 참고)
 - Vue js 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
   npm packages
 </a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/vue.config.js">
@@ -65,15 +65,14 @@
 </a>, vue-cli, git 등등) 
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/config">
   프로젝트 설정 스크립트</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">
-  공통 스크립트
-</a> 관리
+  공통 스크립트</a> 관리
 - SelectBox, CheckBox, 인증 모달 등등 <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
   공통 Component</a> 개발 및 관리
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 문서화 
 - 버그/성능/디자인 개선 및 코드정리
 <br>
 
-## Front-End 개발 기여도 (76% : 시연 동영상 기준)
+## 프로젝트 기여도 (76% : 시연 동영상 기준)
 - 100% : 회원가입, 로그인, 마이페이지, OTC 광고 게시, 주문/출금, 채팅, 서비스
 - 50% : 내 광고/주문
 - 10% : 지갑
@@ -95,7 +94,7 @@
 - Zeplin
 <br>
 
-## 개발 제한사항
+## 개발 시, 제한사항
 - Vuetify 사용
 - 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC 고려 안함)
 - 라이브러리, NPM 패키지 사용 최소화
@@ -109,7 +108,7 @@
 ### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
 
-  ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">스프라이트 이미지</a> 보관<br>
+  ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">Sprite 이미지</a> 보관<br>
   ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수 보관<br>
   ③ components : alert, date picker, select box 등등 공통 컴포넌트 보관<br>
   ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일 보관<br>
