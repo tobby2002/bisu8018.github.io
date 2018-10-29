@@ -44,10 +44,10 @@
 ## 프로젝트 개요
 ### 구성원 
 - 기획 : 1명
+- 번역 : 1명
 - 프론트 엔드 : 2명 
 - 백 엔드 : 3명
 - 디자인 : 4명 
-<br>
 
 ### 개발기간 
 - 2018.06 ~ 2018.09 (약 4개월)
@@ -55,11 +55,10 @@
 
 ## 담당 업무
 - 프론트 엔드 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
-  NPM Packages
-</a>, VUE-CLI, GIT) 
-- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
-  CSS 공통화
-</a>, <a href="img/sprite_image-2.232809dd.png">Sprite 이미지</a> 정리
+  NPM 패키지
+</a>, VUE-CLI, Git) 
+- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_image-2.232809dd.png">Sprite</a> 관리
+- 퍼블리싱 및 프론트엔드 개발 진행
 <br>
 
 ## 프로젝트 기여도 (시연 동영상 기준)
@@ -75,15 +74,15 @@
 <br>
 
 ## 협업 툴
-- Intelij
 - GIT
 - JIRA
+- Zeplin
 <br>
 
 ## 개발 제한사항
 - Vue js 2 사용
-- 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC : 고려 X)
-- 라이브러리 사용 최소화
+- 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC 고려 안함)
+- 라이브러리, NPM 패키지 사용 최소화
 - 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
 - 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
 <br>
