@@ -4,7 +4,7 @@
 <br>
 <a href="https://bisu8018.github.io/">데모 사이트 링크 (https://bisu8018.github.io)</a> 
 <br>
-(현재가데이터 작업 진행중이므로, 부분적으로 진입 불가한 페이지가 존재합니다.)
+(현재 가데이터 작업 진행중이므로, 부분적으로 진입 불가한 페이지가 존재합니다.)
 <br>
 <br>
 <br>
@@ -13,8 +13,8 @@
 - Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <br>
 <br>
-<a href="images/main_page.png">메인페이지(Desktop 환경) 캡쳐</a>, 
-<a href="images/main_page(mobile).png">메인페이지(Mobile 환경) 캡쳐</a>
+<a href="images/main_page.png"><img src="images/main_page.png" style="width: 150px;"></a> 메인페이지(Desktop 환경) 캡쳐, 
+<a href="images/main_page(mobile).png"><img src="images/main_page(mobile).png" style="height: 150px;"></a>메인페이지(Mobile 환경) 캡쳐
 <br>
 <br>
 
