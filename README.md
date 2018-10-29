@@ -71,13 +71,13 @@
 <h4>프로젝트 구조<h4>
 <image src="images/prj_structure.png">
   <br>
-  ① assets : 폰트, 이미지, 스프라이트 이미지 보관
-  ② common : 쿠키 설정과 같은 프로젝트 공통 사용 함수 보관
-  ③ components : 경고창, 달력, 선택창 등등 공통 컴포넌트 보관
-  ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일 보관
-  ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일 보관
-  ⑥ views : vue 파일 보관
-  ⑦ vuex : vuex 관련 스크립트 파일 보관
+  ① assets : 폰트, 이미지, 스프라이트 이미지 보관<br>
+  ② common : 쿠키 설정과 같은 프로젝트 공통 사용 함수 보관<br>
+  ③ components : 경고창, 달력, 선택창 등등 공통 컴포넌트 보관<br>
+  ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일 보관<br>
+  ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일 보관<br>
+  ⑥ views : vue 파일 보관<br>
+  ⑦ vuex : vuex 관련 스크립트 파일 보관<br>
   <br>
   <br>
   나눈 이유 상세 설명 (vue 특징 서술)<br>
