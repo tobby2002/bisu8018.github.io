@@ -1,11 +1,17 @@
+# P2P 가상화폐 거래소
 <image src="images/banner.png" style="width: 150px;">
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">
   Github 소스코드 (https://github.com/bisu8018/p2p_exchange_front_end/)
 </a><br>
 <a href="https://bisu8018.github.io/">
   DEMO 사이트 (https://bisu8018.github.io)
-</a><br>
+</a>
+
+
 <br>
+<br>
+<br>
+
 
 # 시연 동영상
 <a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">
@@ -31,23 +37,29 @@
 <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
   6. 서비스
 </a>
-<br><br>
+
+
+<br>
+<br>
+<br>
+
+
 
 # 개요
-## 프로젝트 개요
+### 프로젝트 개요
 - 가상화폐 P2P 거래 수요 증가에 따른, P2P 가상화폐 거래소 구축
 - 전 세계 대상 서비스로, 다국어 지원
 - 모바일 이용자 고려, 반응형 웹 개발 (캡쳐:<a href="images/main_page.png"> Desktop 환경</a>, <a href="images/main_page(mobile).png">Mobile 환경</a>)
 - Bitcoin, Etherium 입/출금 우선 지원
 
-## 구성원 
+### 구성원 
 - 기획 : 1명
 - 번역 : 1명
 - Front-End : 2명 
 - Back-End : 3명
 - 디자인 : 4명 
 
-## 개발기간 
+### 개발기간 
 - 2018.06 ~ 2018.09 (약 4개월)
 <br>
 
@@ -101,7 +113,7 @@
 
 
 # 상세 내용
-## 프로젝트 구조
+### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
 
   ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">스프라이트 이미지</a> 보관<br>
