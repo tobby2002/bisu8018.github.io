@@ -1,20 +1,20 @@
 # P2P 가상화폐 거래소 프로젝트 Fornt-End
 <image src="images/banner.png" style="width: 150px;">
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">
-  Github repository (https://github.com/bisu8018/p2p_exchange_front_end/)
+  깃허브 코드 (https://github.com/bisu8018/p2p_exchange_front_end/)
 </a><br>
 <a href="https://bisu8018.github.io/">
-  Demo link (https://bisu8018.github.io)
+  데모 사이트 (https://bisu8018.github.io)
 </a><br>
 <br>
 
-## 데모 동영상
+## 시연 동영상
 <a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">
-  1. 회원가입 및 로그인
+  1. 회원가입/로그인
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1nBjx7gkY0JfWL6DvH0cKZdfgTw0Bax-z">
-  2. 지갑 및 마이페이지
+  2. 지갑/마이페이지
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1LW9ETFayPS2mvCgDnT6-BfxfV3YDwAOP">
@@ -22,19 +22,30 @@
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1q6sQXRdqQqK4uz5YtvHcH6YIr2GIRvwT">
-  4. 거래소_주문_출금
+  4. 거래소 목록 및 주문/출금
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1Xqsps2kEq-oykb2Zqtu-P1eKXjrjdDjT">
-  5. 채팅 및 내 광고내역,주문
+  5. 채팅 및 My Ads/Orders
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
   6. 서비스 및 마무리
 </a>
-<br>
+<br><br>
 
 ## 개요
+### 프로젝트 기여도 (시연 동영상 기준)
+- 회원가입/로그인 : 100%
+- 지갑 : 15% 
+- 마이페이지 : 100%
+- OTC 광고 게시 : 100%
+- 거래소 목록 : 15%
+- 주문/출금 : 100%
+- 채팅 : 100%
+- My Ads/Orders : 50%
+- 서비스 : 100%
+
 - Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <a href="images/main_page.png"> Desktop 환경 캡쳐 </a><br>
 <a href="images/main_page(mobile).png">Mobile 환경 캡쳐</a>
