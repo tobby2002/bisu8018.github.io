@@ -1,5 +1,5 @@
 # P2P 가상화폐 거래소 프로젝트
-<image src="images/prj_structure.png" style="width: 150px;">
+<image src="images/banner.png" style="width: 150px;">
 ## Fornt-End
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드 링크 (https://github.com/bisu8018/p2p_exchange_front_end/)</a>
 <br>
