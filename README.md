@@ -6,14 +6,10 @@
 <a href="https://bisu8018.github.io/">
   DEMO 사이트 (https://bisu8018.github.io)
 </a>
-
-
-<br>
 <br>
 <br>
 
-
-# 시연 동영상
+## 시연 동영상
 <a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">
   1. 회원가입, 로그인
 </a>
@@ -37,15 +33,12 @@
 <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
   6. 서비스
 </a>
-
-
-<br>
 <br>
 <br>
 
 
 
-# 개요
+## 개요
 ### 프로젝트 개요
 - 가상화폐 P2P 거래 수요 증가에 따른, P2P 가상화폐 거래소 구축
 - 전 세계 대상 서비스로, 다국어 지원
@@ -63,7 +56,7 @@
 - 2018.06 ~ 2018.09 (약 4개월)
 <br>
 
-# 담당 업무
+## 담당 업무
 - P2P 거래소 사이트 구축 (하기 'Front-End 개발 기여도' 참고)
 - Vue js 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
   npm packages
@@ -80,20 +73,20 @@
 - 버그/성능/디자인 개선 및 코드정리
 <br>
 
-# Front-End 개발 기여도 (76% : 시연 동영상 기준)
+## Front-End 개발 기여도 (76% : 시연 동영상 기준)
 - 100% : 회원가입, 로그인, 마이페이지, OTC 광고 게시, 주문/출금, 채팅, 서비스
 - 50% : 내 광고/주문
 - 10% : 지갑
 - 0% : 거래소 목록
 <br>
 
-# 사용 언어 및 프레임워크
+## 사용 언어 및 프레임워크
 - Vue js (+ Vuetify)
 - JavaScript, TypeScript
 - HTML5, CSS3
 <br>
 
-# 프로젝트 협업 툴
+## 프로젝트 협업 툴
 - GIT
 - Swagger
 - Jenkins (+ Filezila)
@@ -102,7 +95,7 @@
 - Zeplin
 <br>
 
-# 개발 제한사항
+## 개발 제한사항
 - Vuetify 사용
 - 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC 고려 안함)
 - 라이브러리, NPM 패키지 사용 최소화
@@ -112,7 +105,7 @@
 <br>
 
 
-# 상세 내용
+## 상세 내용
 ### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
 
