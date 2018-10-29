@@ -35,27 +35,26 @@
 <br><br>
 
 ## 개요
-### 프로젝트 기여도 (시연 동영상 기준)
-- 회원가입/로그인 : 100%
-- 지갑 : 15% 
-- 마이페이지 : 100%
-- OTC 광고 게시 : 100%
-- 거래소 목록 : 15%
-- 주문/출금 : 100%
-- 채팅 : 100%
-- My Ads/Orders : 50%
-- 서비스 : 100%
+- 가상화폐 P2P 거래 수요 증가에 따른, P2P 가상화폐 거래소 구축
 
-- Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <a href="images/main_page.png"> Desktop 환경 캡쳐 </a><br>
 <a href="images/main_page(mobile).png">Mobile 환경 캡쳐</a>
 <br>
+
+## 프로젝트 개요
+- 총 인원 : 10명 (Front-End:2, BlockChain:1, Back-End:3, Design:4, Planning:1)
+- 개발기간 : 4개월 (1M:기획 및 디자인, 2M:개발, 1M:QA)
 
 ## 담당 업무
 - 프로젝트 프론트 엔드 개발 담당 (주요 기능 위주 전체 약 70%)
 ㅇ
 - 디자인팀이 제작한 결과물 바탕으로, common CSS/z-index/sprite 이미지 정리
 <br>
+
+## 프로젝트 기여도 (시연 동영상 기준)
+- 100% : 회원가입/로그인, 마이페이지, OTC 광고 게시, 주문/출금, 채팅, 서비스
+- 50% : My Ads/Orders
+- 15% : 지갑, 거래소 목록
 
 ## 사용 언어 및 프레임워크
 - Vue js, Vuetify
