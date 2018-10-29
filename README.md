@@ -1,5 +1,6 @@
 # P2P 가상화폐 거래소 프로젝트
-<h2>Fornt-End</h2>
+<image src="images/prj_structure.png" style="width: 150px;">
+## Fornt-End
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드 링크 (https://github.com/bisu8018/p2p_exchange_front_end/)</a>
 <br>
 <a href="https://bisu8018.github.io/">데모 사이트 링크 (https://bisu8018.github.io)</a> 
@@ -13,8 +14,8 @@
 - Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <br>
 <br>
-<a href="images/main_page.png"><img src="images/main_page.png" style="width: 150px;"></a> 메인페이지(Desktop 환경) 캡쳐, 
-<a href="images/main_page(mobile).png"><img src="images/main_page(mobile).png" style="height: 150px;"></a>메인페이지(Mobile 환경) 캡쳐
+<a href="images/main_page.png"> 메인페이지(Desktop 환경) 캡쳐 </a>, 
+<a href="images/main_page(mobile).png">메인페이지(Mobile 환경) 캡쳐</a>
 <br>
 <br>
 
