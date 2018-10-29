@@ -26,7 +26,7 @@
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1Xqsps2kEq-oykb2Zqtu-P1eKXjrjdDjT">
-  5. 채팅, 내 광고, 내 주문
+  5. 채팅, 내 광고/주문
 </a>
 <br>
 <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
@@ -54,32 +54,35 @@
 <br>
 
 ## 담당 업무
-- 프론트 엔드 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
-  NPM 패키지
-</a>, VUE-CLI, Git) 
-- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 문서화/개발 전체 관리
-- 퍼블리싱 및 프론트엔드 개발 진행 (하기 '프로젝트 기여도' 참고)
+- P2P 거래소 사이트 구축 (하기 '프로젝트 기여도' 참고)
+- Vue js 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
+  npm packages
+</a>, vue-cli, git) 
+- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 문서화 
+- 버그/성능/디자인 개선 및 코드정리
+- 초기 AWS 서버 및 도메인 관리 (추후 백엔드 이관)
 <br>
 
-## 프로젝트 기여도 (시연 동영상 기준)
+## 프론트엔드 프로젝트 기여도 (76% : 시연 동영상 기준)
 - 100% : 회원가입, 로그인, 마이페이지, OTC 광고 게시, 주문/출금, 채팅, 서비스
-- 50% : 내 광고, 내 주문
-- 15% : 지갑
+- 50% : 내 광고/주문
+- 10% : 지갑
 - 0% : 거래소 목록
 <br>
 
 ## 사용 언어 및 프레임워크
-- Vue js, Vuetify
-- HTML5, CSS3
+- Vue js (+ Vuetify)
 - JavaScript, TypeScript
+- HTML5, CSS3
 <br>
 
-## 협업 툴
+## 프로젝트 협업 툴
 - GIT
-- JIRA
-- Zeplin
 - Swagger
+- Jenkins (+ Filezila)
 - MySQL Workbench
+- Jira
+- Zeplin
 <br>
 
 ## 개발 제한사항
@@ -88,6 +91,7 @@
 - 라이브러리, NPM 패키지 사용 최소화
 - 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
 - 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
+- 중국 Great Firewall 고려한 API 연동 (+ 개발 작업 시 Proxy 설정 필요)
 <br>
 
 
@@ -109,9 +113,10 @@
 
 2. 주요 기능 페이지 상세 설명
 - post ad
-- mypage
+- buy/sell
 - coin 등록
 - 거래목록 및 필터 검색
+- 채팅
 
 
 
