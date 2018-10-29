@@ -1,10 +1,10 @@
 # P2P 가상화폐 거래소 프로젝트 Fornt-End
 <image src="images/banner.png" style="width: 150px;">
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">
-  깃허브 코드 (https://github.com/bisu8018/p2p_exchange_front_end/)
+  Github Repository (https://github.com/bisu8018/p2p_exchange_front_end/)
 </a><br>
 <a href="https://bisu8018.github.io/">
-  데모 사이트 (https://bisu8018.github.io)
+  DEMO Site (https://bisu8018.github.io)
 </a><br>
 <br>
 
@@ -36,9 +36,9 @@
 
 ## 개요
 - 가상화폐 P2P 거래 수요 증가에 따른, P2P 가상화폐 거래소 구축
-
-<a href="images/main_page.png"> Desktop 환경 캡쳐 </a><br>
-<a href="images/main_page(mobile).png">Mobile 환경 캡쳐</a>
+- 전 세계 대상 서비스이므로, 다국어 지원 필수
+- 모바일 이용자 대다수임을 고려하여, 반응형 웹 개발 (캡쳐:<a href="images/main_page.png"> Desktop 환경 </a>,<a href="images/main_page(mobile).png">Mobile 환경</a>)
+- Bitcoin, Etherium 입/출금 우선 지원
 <br>
 
 ## 프로젝트 개요
