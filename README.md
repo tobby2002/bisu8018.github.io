@@ -4,34 +4,31 @@
 
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">프로젝트 소스코드 링크</a>
 <br>
-<a href="https://bisu8018.github.io/">데모 사이트 링크</a><br> (현재 서버 미연동으로 가데이터 작업 진행중입니다. 진입 불가한 페이지가 부분 존재하므로 양해 부탁드립니다)
+<a href="https://bisu8018.github.io/">데모 사이트 링크</a> (현재 가데이터 작업 진행중이므로, 부분적으로 진입 불가하오니 양해 부탁드립니다)
+<br>
 <br>
 <br>
 
 <h3>개요</h3>
-- Vue js 기반 반응형 웹 가상화폐 P2P 거래소 구축
+- Vue js 기반 반응형 웹, P2P 가상화폐 거래소 구축
 <br>
 <br>
-<a href="images/main_page.png">메인페이지(데스크탑) 캡쳐</a>, 
-<a href="images/main_page(mobile).png">메인페이지(모바일) 캡쳐</a>
-<br>
-<br>
-
-
-<h3>개발 인원</h3>
-- 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)
+<a href="images/main_page.png">메인페이지(Desktop 환경) 캡쳐</a>, 
+<a href="images/main_page(mobile).png">메인페이지(Mobile 환경) 캡쳐</a>
 <br>
 <br>
 
-<h3>개발 기간</h3>
-- 약 2개월 (QA 포함) : 2018.08 ~ 2018.10
+
+<h3>개발 인원 및 기간</h3>
+- 6명 (BlockChain : 1, Back-End : 3, Front-End : 2)<br>
+- 약 3개월 (QA 포함) : 2018.08 ~ 2018.10
 <br>
 <br>
 
 <h3>담당 업무</h3>
-- 프론트 엔드 개발 담당
+- 프로젝트 프론트 엔드 개발 담당 (주요 기능 위주 전체 약 70%)
 <br>
-(회원가입, 로그인, 마이페이지, 거래등록/편집, 랜딩페이지, 거래 구매/판매 진행 프로세스 등등 ...)
+- 디자인팀이 제작한 결과물 바탕으로, common CSS/z-index/sprite 이미지 정리
 <br>
 <br>
 
@@ -68,12 +65,12 @@
 
 
 <h3>상세 내용</h3>
-<h4>프로젝트 구조<h4>
-<image src="images/prj_structure.png">
-  <br>
-  ① assets : 폰트, 이미지, 스프라이트 이미지 보관<br>
-  ② common : 쿠키 설정과 같은 프로젝트 공통 사용 함수 보관<br>
-  ③ components : 경고창, 달력, 선택창 등등 공통 컴포넌트 보관<br>
+<h4>프로젝트 구조</h4>
+<image src="images/prj_structure.png" style="width: 150px;">
+  <br><br>
+  ① assets : fonts, images, sprite images<a href="img/sprite_image-2.232809dd.png">(이미지 보기)</a> 보관<br>
+  ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수 보관<br>
+  ③ components : alert, date picker, select box 등등 공통 컴포넌트 보관<br>
   ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일 보관<br>
   ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일 보관<br>
   ⑥ views : vue 파일 보관<br>
