@@ -7,8 +7,8 @@
   DEMO 사이트 (https://bisu8018.github.io)
 </a>
 <br>
-<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
-  공통 Component</a>
+<a href="images/site_map.pdf">
+  사이트 맵</a>
 <br>
 <br>
 
