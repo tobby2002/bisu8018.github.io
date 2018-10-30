@@ -141,7 +141,7 @@
 - 데이터 관련 작업 완료 후, 가상 DOM 출력하도록 초기화 작업 필요
 
 <image src="images/init_explain.png" style="width: 150px;">
-  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/vuex/MainRepository.ts">1,2 번 소스코드</a>
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/vuex/MainRepository.ts">1,2 번 소스코드</a><br>
   <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/views/home/Home.vue">3,4 번 소스코드</a>
  <br> 
  <br>
@@ -153,7 +153,7 @@
 - 채팅 url 별도 관리
 
 <image src="images/chat_explain.png" style="width: 150px;">
-  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/views/home/body/chat/item/ChatManager.vue">1,2 번 소스코드</a>
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/views/home/body/chat/item/ChatManager.vue">1,2 번 소스코드</a><br>
   <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/config/urlList.ts">3 번 소스코드</a>
  <br> 
  <br>
@@ -165,7 +165,7 @@
 - view 또는 script 단에서 plugin 호출
   
 <image src="images/language.png" style="width: 150px;">
-  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/config/localization.ts">1,2 번 소스코드</a>
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/config/localization.ts">1,2 번 소스코드</a><br>
   <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">3 번 소스코드</a>
  <br> 
  <br>
