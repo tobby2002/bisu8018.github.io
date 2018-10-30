@@ -93,13 +93,13 @@
 ### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
 
-  ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">Sprite 이미지</a><br>
-  ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수<br>
-  ③ components : alert, date picker, select box 등등 공통 컴포넌트<br>
-  ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일<br>
-  ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일<br>
-  ⑥ views : vue 파일<br>
-  ⑦ vuex : vuex 관련 스크립트 파일<br>
+  ① <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/assets">assets</a> : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">Sprite 이미지</a><br>
+  ② <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">common</a> : Cookie 설정과 같은 프로젝트 공통 사용 함수<br>
+  ③ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">components</a> : alert, date picker, select box 등등 공통 컴포넌트<br>
+  ④ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/config">config</a> : 언어설정, url 목록 등등 설정 관련 스크립트 파일<br>
+  ⑤ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/service">service</a> : Back-end 통신 위한 AXIOS 관련 스크립트 파일<br>
+  ⑥ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views">views</a> : vue 파일<br>
+  ⑦ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex">vuex</a> : vuex 관련 스크립트 파일<br>
   
 ### Vue 소스코드 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
 <image src="images/login.png" style="width: 150px;">
