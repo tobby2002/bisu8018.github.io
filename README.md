@@ -30,7 +30,7 @@
 
 ### 현황
 - 중국 업체 AllB 판매
-- 빗썸 협업 진행중
+- 빗썸 계약 진행
 
 ### 구성원 
 - 기획 : 1명
@@ -58,7 +58,7 @@
 <br>
 
 ## 필수사항
-- 반응형 웹 개발 (최소 사이즈 아이폰5se, 태블릿 PC 미고려, 'Grid, Gutter' 준수)
+- 반응형 SPA 개발 (최소 사이즈 아이폰5se, 태블릿 PC 미고려, 'Grid, Gutter' 준수)
 - 라이브러리, NPM 패키지 사용 최소화
 - 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
 - 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
@@ -132,15 +132,34 @@
   ③ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/model">model</a> : 데이터 모델화<br>
   ④ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/modules">modules</a> : vuex 상태 관리 (변이, 액션)<br>
   ⑤ <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/vuex/MainRepository.ts">MainRepository</a> : 데이터 통신 및 vuex 작업 전체 관리하는 컨트롤러<br>
+<br>
 
-### 개발 특이사항
+### 특이사항
 #### Vue js 가상 DOM 업데이트 타이밍 이슈
 - Vue js는 데이터 변환을 감지할 때마다, 가상 DOM 업데이트 진행
 - 데이터 변환 감지를 못하거나, 데이터 로드/뷰 로드 타이밍이 어긋나 간헐적 에러 발생
 - 데이터 관련 작업 완료 후, 가상 DOM 출력하도록 초기화 작업 필요
 
 <image src="images/init_explain.png" style="width: 150px;">
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/vuex/MainRepository.ts"><h5>1,2 번 소스코드</h5></a><br>
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/views/home/Home.vue"><h5>3,4 번 소스코드</h5></a>
+ <br> 
+ <br>
   
-#### STOMP websocket 기반 채팅 (<a href="images/chat.png">스크린샷</a>)
+#### STOMP websocket 기반 채팅 구축(<a href="images/chat.png">스크린샷</a>)
+- STOMP websocket 라이브러리 이용
+- 채팅은 거래소 별도 기능으로 타기능에 영향받으면 안되므로, vue 가장 바깥에 구현
+- STOMP 함수, eventbus 활용
+- 채팅 url 별도 관리
 
+<image src="images/chat_explain.png" style="width: 150px;">
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/views/home/body/chat/item/ChatManager.vue"><h5>1,2 번 소스코드</h5></a><br>
+  <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/config/urlList.ts"><h5>3 번 소스코드</h5></a>
+ <br> 
+ <br>
+    
+#### 언어 설정(<a href="images/korean.png">한국어</a>, <a href="images/english.png">영어</a>, <a href="images/chinese.png">중국어</a> 스크린샷)
+- 한국어, 영어, 중국어(간체,번체)
+- 최초 언어값은 브라우저 언어 설정 기준 (쿠키값)
+  
 
