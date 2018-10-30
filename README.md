@@ -13,28 +13,28 @@
 <br>
 
 ## 시연 동영상
-<a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">
-  1. 회원가입, 로그인
+1. <a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">
+  회원가입, 로그인
 </a>
 <br>
-<a href="https://drive.google.com/open?id=1nBjx7gkY0JfWL6DvH0cKZdfgTw0Bax-z">
-  2. 지갑, 마이페이지
+2. <a href="https://drive.google.com/open?id=1nBjx7gkY0JfWL6DvH0cKZdfgTw0Bax-z">
+  지갑, 마이페이지
 </a>
 <br>
-<a href="https://drive.google.com/open?id=1LW9ETFayPS2mvCgDnT6-BfxfV3YDwAOP">
-  3. OTC 광고 게시
+3. <a href="https://drive.google.com/open?id=1LW9ETFayPS2mvCgDnT6-BfxfV3YDwAOP">
+  OTC 광고 게시
 </a>
 <br>
-<a href="https://drive.google.com/open?id=1q6sQXRdqQqK4uz5YtvHcH6YIr2GIRvwT">
-  4. 거래소 목록, 주문/출금
+4. <a href="https://drive.google.com/open?id=1q6sQXRdqQqK4uz5YtvHcH6YIr2GIRvwT">
+  거래소 목록, 주문/출금
 </a>
 <br>
-<a href="https://drive.google.com/open?id=1Xqsps2kEq-oykb2Zqtu-P1eKXjrjdDjT">
-  5. 채팅, 내 광고/주문
+5. <a href="https://drive.google.com/open?id=1Xqsps2kEq-oykb2Zqtu-P1eKXjrjdDjT">
+  채팅, 내 광고/주문
 </a>
 <br>
-<a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
-  6. 서비스
+6. <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">
+  서비스
 </a>
 <br>
 <br>
@@ -121,13 +121,29 @@
   ⑥ views : vue 파일<br>
   ⑦ vuex : vuex 관련 스크립트 파일<br>
   
-### Vue 공통 구조 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
-#### 템플렛
+### Vue 파일 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
+#### 템플렛 (template)
 <image src="images/login_template.png" style="width: 150px;">
 
 ① Grid, Gutter 준수 위해, Vuetify에서 제공하는 태그로 전체 레이아웃 적용<br>
 ② 인증 슬라이더와 같은 다수 페이지 공통 컴포넌트 이용 시, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
   공통 컴포넌트화</a> 작업 진행 및 사용
   
+#### 스크립트 (script)
+<image src="images/login_script.png" style="width: 150px;">
+
+① Vue 속성 순서 규칙화 (name -> data -> components -> computed -> 상태 이벤트(created, mounted 등등) -> methods)
+② 다수 페이지에서 사용되는 함수, <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/common/common.ts">
+  공통화 작업</a> 진행 및 사용
   
+#### 스타일 (style)
+<image src="images/login_style.png" style="width: 150px;">
+
+① 디자인팀에서 정한 양식 기준으로 작성된 CSS 및 공통 CSS, App.vue에서 공통 관리 
+② 이미 존재하는 CSS 수정 필요할 시, 예외적으로 선언<br>
+
+### Vuex 구조 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex">Vuex repository</a>)
+
+
+
 
