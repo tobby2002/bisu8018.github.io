@@ -45,6 +45,10 @@
 - 모바일 이용자 고려, 반응형 웹 개발 (캡쳐:<a href="images/main_page.png"> Desktop 환경</a>, <a href="images/main_page(mobile).png">Mobile 환경</a>)
 - Bitcoin, Etherium 입/출금 우선 지원
 
+### 현황
+- 중국 AllB 업체 판매
+- 빗썸 계약 진행중
+
 ### 구성원 
 - 기획 : 1명
 - 번역 : 1명
@@ -53,8 +57,29 @@
 - 디자인 : 4명 
 
 ### 개발기간 
-- 2018.06 ~ 2018.09 (약 4개월)
+- 2018.06 ~ 2018.09 (약 3개월)
+
+### 사용 언어 및 프레임워크
+- Vue js 
+- JavaScript, TypeScript
+- HTML5, CSS3
+- Vuetify
+
+### Front-End 프로젝트 협업 툴
+- Github
+- Swagger
+- Jenkins (+ Filezila)
+- MySQL Workbench : DB 데이터 관리
+- Jira
+- Zeplin 
 <br>
+
+## Front-End 필수사항
+- 반응형 웹 개발 (최소 사이즈 아이폰5se, 태블릿 PC 미고려, 'Grid, Gutter' 준수)
+- 라이브러리, NPM 패키지 사용 최소화
+- 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
+- 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
+- 중국 Great Firewall 고려한 API 연동 (+ 개발 작업 시 <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/vue.config.js">Proxy 설정</a>)
 
 ## 담당 업무
 - P2P 거래소 사이트 구축 (하기 '프로젝트 기여도' 참고)
@@ -70,51 +95,27 @@
   공통 Component</a> 개발 및 관리
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 문서화 
 - 버그/성능/디자인 개선 및 코드정리
+- AWS 서버 및 도메인 관리
 <br>
 
 ## 프로젝트 기여도 (76% : 시연 동영상 기준)
-- 100% : 회원가입, 로그인, 마이페이지, OTC 광고 게시, 주문/출금, 채팅, 서비스
-- 50% : 내 광고/주문
+- 100% : <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/signup">회원가입</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/myPage">마이페이지</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/postAd">OTC 광고 게시</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/trade/buy">주문(구입)</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/trade/sell">출금(판매)</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/chat">채팅</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/service">서비스</a> 
+- 50% : <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/myAds">내 광고</a>/<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/myOrder">주문</a>
 - 10% : 지갑
 - 0% : 거래소 목록
 <br>
-
-## 사용 언어 및 프레임워크
-- Vue js (+ Vuetify)
-- JavaScript, TypeScript
-- HTML5, CSS3
-<br>
-
-## 프로젝트 협업 툴
-- GIT
-- Swagger
-- Jenkins (+ Filezila)
-- MySQL Workbench
-- Jira
-- Zeplin
-<br>
-
-## 개발 시, 제한사항
-- Vuetify 사용
-- 반응형 웹 개발 (최소 사이즈 : 아이폰5se, 태블릿 PC 고려 안함)
-- 라이브러리, NPM 패키지 사용 최소화
-- 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
-- 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
-- 중국 Great Firewall 고려한 API 연동 (+ 개발 작업 시 Proxy 설정 필요)
-<br>
-
 
 ## 상세 내용
 ### 프로젝트 구조
 <image src="images/prj_structure.png" style="width: 150px;">
 
-  ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">Sprite 이미지</a> 보관<br>
-  ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수 보관<br>
-  ③ components : alert, date picker, select box 등등 공통 컴포넌트 보관<br>
-  ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일 보관<br>
-  ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일 보관<br>
-  ⑥ views : vue 파일 보관<br>
-  ⑦ vuex : vuex 관련 스크립트 파일 보관<br>
+  ① assets : 폰트, 이미지, <a href="img/sprite_x2.4b9f8b78.png">Sprite 이미지</a><br>
+  ② common : Cookie 설정과 같은 프로젝트 공통 사용 함수<br>
+  ③ components : alert, date picker, select box 등등 공통 컴포넌트<br>
+  ④ config : 언어설정, url 목록 등등 설정 관련 스크립트 파일<br>
+  ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일<br>
+  ⑥ views : vue 파일<br>
+  ⑦ vuex : vuex 관련 스크립트 파일<br>
   <br>
   <br>
   나눈 이유 상세 설명 (vue 특징 서술)<br>
