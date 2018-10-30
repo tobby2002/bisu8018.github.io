@@ -14,20 +14,12 @@
 
 ## 시연 동영상
 1. <a href="https://drive.google.com/open?id=19xBiWki5Txgzmq6xmsDV1Z4qrHhoNX2y">회원가입, 로그인</a>
-<br>
 2. <a href="https://drive.google.com/open?id=1nBjx7gkY0JfWL6DvH0cKZdfgTw0Bax-z">지갑, 마이페이지</a>
-<br>
 3. <a href="https://drive.google.com/open?id=1LW9ETFayPS2mvCgDnT6-BfxfV3YDwAOP">OTC 광고 게시</a>
-<br>
 4. <a href="https://drive.google.com/open?id=1q6sQXRdqQqK4uz5YtvHcH6YIr2GIRvwT">거래소 목록, 주문/출금</a>
-<br>
 5. <a href="https://drive.google.com/open?id=1Xqsps2kEq-oykb2Zqtu-P1eKXjrjdDjT">채팅, 내 광고/주문</a>
-<br>
 6. <a href="https://drive.google.com/open?id=1MgKkUouL3-6elEkKjHo3WkNhAW7Xrhq3">서비스</a>
 <br>
-<br>
-
-
 
 ## 개요
 ### 프로젝트 개요
@@ -37,8 +29,8 @@
 - Bitcoin, Etherium 입/출금 우선 지원
 
 ### 현황
-- 중국 AllB 업체 판매
-- 빗썸 계약 진행중
+- 중국 업체 AllB 판매
+- 빗썸 협업 진행중
 
 ### 구성원 
 - 기획 : 1명
@@ -109,7 +101,7 @@
   ⑥ views : vue 파일<br>
   ⑦ vuex : vuex 관련 스크립트 파일<br>
   
-### Vue 파일 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
+### Vue 소스코드 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
 <image src="images/login.png" style="width: 150px;">
   
 #### 템플렛 (template)
@@ -132,8 +124,12 @@
 ① 디자인팀에서 정한 양식 기준으로 작성된 CSS 및 공통 CSS, <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">App.vue</a>에서 공통 관리 <br>
 ② Vuetify, 공통 CSS의 수정이 필요한 예외적인 경우만 추가 선언<br>
 
-### Vuex 구조 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex">Vuex repository</a>)
-<image src="images/vuex_structure.png" style="width: 150px;">
+### Vuex 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex">vuex repository</a>)
+<image src="images/vuex_structure.PNG" style="width: 150px;">
 
+  ① <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/config">config</a> : vuex 상태, 타입 값 선언<br>
+  ② <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/controller">controller</a> : vuex 상태 호출 함수 선언<br>
+  ③ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/model">model</a> : 데이터 모델화<br>
+  ④ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/model">modules</a> : vuex 상태 관리 (변이, 액션)<br>
 
 
