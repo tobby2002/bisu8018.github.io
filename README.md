@@ -130,6 +130,17 @@
   ① <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/config">config</a> : vuex 상태, 타입 값 선언<br>
   ② <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/controller">controller</a> : vuex 상태 호출 함수 선언<br>
   ③ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/model">model</a> : 데이터 모델화<br>
-  ④ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/model">modules</a> : vuex 상태 관리 (변이, 액션)<br>
+  ④ <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/vuex/modules">modules</a> : vuex 상태 관리 (변이, 액션)<br>
+  ⑤ <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/vuex/MainRepository.ts">MainRepository</a> : 데이터 통신 및 vuex 작업 전체 관리하는 컨트롤러<br>
+
+### 개발 특이사항
+#### Vue js 가상 DOM 업데이트 타이밍 이슈
+- Vue js는 데이터 변환을 감지할 때마다, 가상 DOM 업데이트 진행
+- 데이터 변환 감지를 못하거나, 데이터 로드/뷰 로드 타이밍이 어긋나 간헐적 에러 발생
+- 데이터 관련 작업 완료 후, 가상 DOM 출력하도록 초기화 작업 필요
+
+<image src="images/init_explain.png" style="width: 150px;">
+  
+#### STOMP websocket 기반 채팅 (<a href="images/chat.png">스크린샷</a>)
 
 
