@@ -7,6 +7,9 @@
   DEMO 사이트 (https://bisu8018.github.io)
 </a>
 <br>
+<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
+  공통 Component</a>
+<br>
 <br>
 
 ## 시연 동영상
@@ -65,7 +68,7 @@
 - HTML5, CSS3
 - Vuetify
 
-### Front-End 프로젝트 협업 툴
+### 프로젝트 협업 툴
 - Github
 - Swagger
 - Jenkins (+ Filezila)
@@ -74,26 +77,27 @@
 - Zeplin 
 <br>
 
-## Front-End 필수사항
+## 필수사항
 - 반응형 웹 개발 (최소 사이즈 아이폰5se, 태블릿 PC 미고려, 'Grid, Gutter' 준수)
 - 라이브러리, NPM 패키지 사용 최소화
 - 멀티 브라우져 지원 (크롬, 사파리, 파이어폭스, IE Edge, IE11)
 - 4개국어 지원 (한국어, 영어, 중국어 간체, 중국어 번체)
 - 중국 Great Firewall 고려한 API 연동 (+ 개발 작업 시 <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/vue.config.js">Proxy 설정</a>)
+<br>
 
 ## 담당 업무
-- P2P 거래소 사이트 구축 (하기 '프로젝트 기여도' 참고)
+- P2P 거래소 반응형 사이트 구축 (하기 '프로젝트 기여도' 참고)
 - Vue js 프로젝트 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/package.json">
   npm packages
 </a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/vue.config.js">
   vue.config
-</a>, vue-cli, git 등등) 
+</a>, vue-cli, git 등) 
 - <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/config">
-  프로젝트 설정 스크립트</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">
-  공통 스크립트</a> 관리
+  프로젝트 설정 script</a>, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/common">
+  공통 script</a> 관리
 - SelectBox, CheckBox, 인증 모달 등등 <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
   공통 Component</a> 개발 및 관리
-- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 문서화 
+- <a href="https://github.com/bisu8018/p2p_exchange_front_end/blob/develop/src/App.vue">CSS 공통화</a>, <a href="img/sprite_x2.4b9f8b78.png">Sprite</a>, <a href="images/z_index_list.pdf">z-index</a> 등등 디자인 관련 개발작업 및 <a href="images/common_css.pdf">문서화</a> 
 - 버그/성능/디자인 개선 및 코드정리
 - AWS 서버 및 도메인 관리
 <br>
@@ -116,18 +120,9 @@
   ⑤ service : Back-end 통신 위한 AXIOS 관련 스크립트 파일<br>
   ⑥ views : vue 파일<br>
   ⑦ vuex : vuex 관련 스크립트 파일<br>
-  <br>
-  <br>
-  나눈 이유 상세 설명 (vue 특징 서술)<br>
--  config, vue config, vuex 상세 설명 스샷 첨부<br>
-
-2. 주요 기능 페이지 상세 설명
-- post ad
-- buy/sell
-- coin 등록
-- 거래목록 및 필터 검색
-- 채팅
-- 공통 컴포넌트 (인증모달)
+  
+  ### Vue 일반 구조 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
+<image src="images/login_template.png" style="width: 150px;">
 
 
 
