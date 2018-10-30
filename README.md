@@ -121,11 +121,13 @@
   ⑥ views : vue 파일<br>
   ⑦ vuex : vuex 관련 스크립트 파일<br>
   
-### Vue 구조 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
-#### <tamplate>
+### Vue 공통 구조 관리 (<a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/views/home/body/login">로그인</a> 페이지 예시)
+#### 템플렛
 <image src="images/login_template.png" style="width: 150px;">
 
-① Grid, Gutter 준수 위해, Vuetify에서 제공하는 태그로 레이아웃 적용<br>
-② 인증 슬라이더와 같이 다수 페이지 공통 사용 시, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
-  공통 컴포넌트화</a> 작업 진행<br>
+① Grid, Gutter 준수 위해, Vuetify에서 제공하는 태그로 전체 레이아웃 적용<br>
+② 인증 슬라이더와 같은 다수 페이지 공통 컴포넌트 이용 시, <a href="https://github.com/bisu8018/p2p_exchange_front_end/tree/develop/src/components">
+  공통 컴포넌트화</a> 작업 진행 및 사용
+  
+  
 
