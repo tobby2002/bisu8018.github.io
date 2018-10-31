@@ -3,12 +3,12 @@
 <a href="https://github.com/bisu8018/p2p_exchange_front_end/">
   Github 소스코드 (https://github.com/bisu8018/p2p_exchange_front_end/)
 </a><br>
-<a href="https://bisu8018.github.io/">
-  DEMO 사이트 (https://bisu8018.github.io)
-</a>
-<br>
 <a href="images/sitemap.pdf">
   사이트 맵</a>
+<br>
+  <a href="https://bisu8018.github.io/">
+  DEMO 사이트 (https://bisu8018.github.io) (서버 미연동으로 인한 테스트 데이터 삽입 작업중이므로, 진입 불가한 페이지가 부분적으로 존재하는 점 양해 부탁드립니다.)
+</a>
 <br>
 <br>
 
