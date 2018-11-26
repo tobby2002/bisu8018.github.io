@@ -35,6 +35,7 @@
 - 번역 : 1명
 - Front-End : 2명 
 - Back-End : 3명
+- BlockChain : 1명
 - 디자인 : 4명 
 
 ### 개발기간 
